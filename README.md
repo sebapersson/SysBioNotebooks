@@ -29,7 +29,10 @@ For best performance, we strongly recommend using the latest version of Julia, w
 
 [SBMLImporter.jl](https://github.com/sebapersson/SBMLImporter.jl) is a Julia importer for dynamic models defined in the [Systems Biology Markup Language (SBML)](https://sbml.org/). It supports most SBML features such as events and dynamic compartment sizes. Imported models are converted into a [Catalyst](https://github.com/SciML/Catalyst.jl) `ReactionSystem`. This `ReactionSystem` can then be transformed into various problem types, such as a `JumpProblem` for Gillespie simulations, a `SDEProblem` for Langevin SDE simulations, or an `ODEProblem` for deterministic simulations.
 
-In the *SBMLImporter* folder of this repository, is an example notebook demonstrating how to import an SBML model, convert it into an `ODEProblem`, and subsequently evaluate the performance of different ODE solvers on this problem.
+In the *SBMLImporter* folder of this repository, you'll find notebooks covering a range of topics:
+
+- Importing a SBML model as a `JumpProblem` for Gillespie simulations, and subsequently evaluate the performance of different stochastic simulators on this problem.
+- Importing a SBML model as an `ODEProblem`, and subsequently evaluate the performance of different ODE solvers on this problem.
 
 ## PEtab.jl examples
 
