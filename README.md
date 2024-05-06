@@ -32,7 +32,7 @@ For best performance, we strongly recommend using the latest version of Julia, w
 In the *SBMLImporter* folder of this repository, you'll find notebooks covering a range of topics:
 
 - Importing a SBML model as a `JumpProblem` for Gillespie simulations, and subsequently evaluate the performance of different stochastic simulators on this problem.
-- Importing a SBML model as an `ODEProblem`, and subsequently evaluate the performance of different ODE solvers on this problem.
+- Importing a SBML model as an `ODEProblem`, and subsequently evaluate the performance of different ODE solvers on this problem. A Google Colab of this notebook can also be found [here](https://colab.research.google.com/drive/1OMhiEtMmArptiRriv-_1jEc5NbMlupGC#scrollTo=29m1mQkj1sI1).
 
 ## PEtab.jl examples
 
@@ -40,8 +40,8 @@ In the *SBMLImporter* folder of this repository, you'll find notebooks covering 
 
 In the *PEtab* directory of this repository, you'll find notebooks covering a range of topics:
 
-- Setting up a PEtab problem in Julia
-- Importing and simulating the ODE dynamic models in a PEtab problem.
+- Setting up a PEtab problem in Julia. A Google Colab of this notebook can also be found [here](https://colab.research.google.com/drive/1zhkKfxO8C9nEo4Igu0_om3BhXb2Hnq0G#scrollTo=GIeFXS0F0zww)
+- Importing and simulating the ODE dynamic models in a PEtab problem. 
 - Benchmarking different ODE solvers for a PEtab problem.
 - Benchmarking different gradient computation methods, such as forward and adjoint methods, for a PEtab problem.
 - Performing parameter estimation for a PEtab problem.
